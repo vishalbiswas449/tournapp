@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Search, Filter, Edit, Trash2, Users, Calendar } from 'lucide-react';
+import { Plus, Search, Filter, CreditCard as Edit, Trash2, Users, Calendar } from 'lucide-react';
 
 const Tournaments = () => {
   const [searchTerm, setSearchTerm] = useState('');
