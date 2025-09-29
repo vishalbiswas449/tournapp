@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Search, Filter, Edit, Trash2, Clock, CheckCircle, XCircle, Calendar } from 'lucide-react';
+import { Plus, Search, Filter, CreditCard as Edit, Trash2, Clock, CheckCircle, XCircle, Calendar } from 'lucide-react';
 
 const Matches = () => {
   const [searchTerm, setSearchTerm] = useState('');
